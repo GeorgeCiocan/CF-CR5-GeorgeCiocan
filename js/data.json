@@ -1,0 +1,66 @@
+
+var movies = `[
+  {
+    "name": "Transformers",
+    "image": "./img/transformers1.jpg",
+    "year": 2007,
+    "cast": ["Shia LaBeouf", "Megan Fox"],
+    "likes": 5,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "name": "Transformers: Revenge of the Fallen",
+    "image": "./img/transformers2.jpg",
+    "year": 2009,
+    "cast": [
+      "Shia LaBeouf",
+      "Megan Fox"
+    ],
+    "likes": 6,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "name": "Transformers: Dark of the Moon",
+    "image": "./img/transformers3.jpg",
+    "year": 2011,
+    "cast": [
+      "Shia LaBeouf",
+      "Rosie Huntington-Whiteley"
+    ],
+    "likes": 1,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "name": "Transformers: Age of Extinction",
+    "image": "./img/transformers4.jpg",
+    "year": 2014,
+    "cast": [
+      "Mark Wahlberg",
+      "Nicola Peltz"
+    ],
+    "likes": 2,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "name": "Transformers: The Last Knight",
+    "image": "./img/transformers5.jpg",
+    "year": 2017,
+    "cast": [
+      "Mark Wahlberg",
+      "Laura Haddock"
+    ],
+    "likes": 3,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "name": "Bumblebee",
+    "image": "./img/transformers6.jpg",
+    "year": 2018,
+    "cast": [
+      "Hailee Steinfeld",
+      "John Cena"
+    ],
+    "likes": 4,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }
+]`;

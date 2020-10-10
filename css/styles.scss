@@ -1,0 +1,32 @@
+main {
+  padding-top: 10rem;
+}
+
+nav a {
+  font-size: 1.5rem;
+}
+
+.footer {
+  height: 8rem;
+}
+
+.large {
+  font-size: 2rem;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+div .image {
+  border: 2px solid black;
+}
+
+.bg-nice-gray {
+  background-color: #181818;
+}
+
+//remove rule to display freely, in this case the pictures would look better on each screen, but the cards would have slightly different heights
+.card img {
+  max-height: 19rem;
+}
