@@ -57,5 +57,18 @@ function toggleSort() {
 }
 
 $("#sort-button").on("click", toggleSort)
-$(document).ready(display(sortedArray));
 
+//creates search function
+function search (input) {
+  let result = sortedArray.filter( element => element.name.includes(input))
+  display(result)
+}
+
+$("#search").on("submit", function(event) {
+  event.preventDefault()
+  let input = event.target[0].value
+  search(input)
+})
+
+//display when DOM is ready
+$(document).ready(display(sortedArray));
