@@ -7,7 +7,7 @@ function display (movieList) {
   movieList.forEach(movie => {
     $("#movies").append(`
       <div class="col-12 col-md-6">
-        <div class="card mb-3 border-0 ">
+        <div class="card mb-5 border-0 ">
           <div class="row no-gutters bg-nice-gray">
             <div class="col-lg-4 p-2">
               <img
